@@ -28,29 +28,7 @@ const MovieLanding = () => {
         className="relative w-[98vw] h-[95vh] bg-cover bg-center"
         style={{ backgroundImage: "url('/images/image copy 2.png')" }}
       >
-        <div className="absolute bottom-10 left-0 p-4 bg-opacity-70 text-white w-full">
-          <h2 className="text-4xl font-bold text-yellow-500 mb-1">Maleficent: Mistress of Evil</h2>
-          <div className="flex items-center text-gray-400 text-sm mb-2">
-            <span>14</span>
-            <span className="mx-2">•</span>
-            <span>2019</span>
-            <span className="mx-2">•</span>
-            <span>1h 59m</span>
-            <span className="mx-2">•</span>
-            <span>1 Episodes</span>
-          </div>
-          <p className="text-gray-400 text-sm mb-4 leading-tight">
-            The story follows Maleficent and Aurora as they confront new <br /> challenges to their relationship, including unexpected allies and dark forces at play. <br /> Starring Angelina Jolie, Elle Fanning, Michelle Pfeiffer, Juno Temple, ...
-          </p>
-          <div className="flex space-x-3">
-            <button className="bg-yellow-500 text-black px-4 py-1.5 rounded-full text-sm font-medium hover:bg-yellow-600 transition-colors">
-              Watch Now
-            </button>
-            <button className="bg-gray-800 text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-gray-700 transition-colors">
-              Add To Favourites
-            </button>
-          </div>
-        </div>
+      
       </section>
       <div className="flex space-x-2 p-4 overflow-x-auto bg-gray-900">
         <button
